@@ -14,7 +14,7 @@ The Exchange-Currency is designed to provide users with up-to-date exchange IDR 
 ### Installation
 To run the Exchange-Currency application locally, follow these steps:
 1. Clone the repository:
-> `git clone https://github.com/floviolabs/exchange-currency.git`
+> `git clone https://github.com/floviolabs/idr-exchange-currency.git`
 2. Navigate to the project directory:
 > `cd exchange-currency`
 3. Install the dependencies:
