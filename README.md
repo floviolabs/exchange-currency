@@ -29,6 +29,8 @@ To run the Exchange-Currency application locally, follow these steps:
 > `http://localhost:6000/currency-count`
 * Input body JSON value
 > `{ "in_currency":{currency_name}, "in_values":{currency_value} }`
+* Example
+> `{ "in_currency":"AUD", "in_values":32 }`
 
 ### License
 The Exchange-Currency application is open source and released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
