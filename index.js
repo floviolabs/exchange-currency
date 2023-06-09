@@ -85,7 +85,12 @@ async function currencyScraper() {
       const searchData = convertedData.find(e=>e.Currency == in_currency)
       if (searchData) {
         const calculatedRate = searchData.Rate * in_values;
-        dataFounded.push({ Currency: searchData.Currency, Rate: calculatedRate });
+        dataFounded.push({
+          in_currency: searchData.Currency,
+          in_rate: searchData.Rate,
+          in_values: in_values,
+          in_rupiah: calculatedRate,
+        });
       } else {
         res.json({ error: "Currency with AUD not found" });
       }
