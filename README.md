@@ -1,4 +1,4 @@
-# Exchange-Currency
+# IDR Exchange-Currency
 This is a repository for the Exchange-Currency, a other currency exchange to Indonesia Rupiah (IDR) application, that retrieves exchange rate data from Bank Indonesia.
 
 ## Table of Contents
