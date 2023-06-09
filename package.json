@@ -1,7 +1,7 @@
 {
-  "name": "exchange-currency",
+  "name": "idr-exchange-currency",
   "version": "1.0.1",
-  "description": "retrive data from BI",
+  "description": "convert from other currency to IDR",
   "main": "index.js",
    "scripts": {
     "start": "nodemon index.js"
